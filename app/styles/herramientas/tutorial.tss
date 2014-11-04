@@ -1,0 +1,72 @@
+"#scrollableView": {
+	height: Ti.UI.SIZE,
+	width: "100%",
+	zIndex: 1
+},
+"#scrollableView[platform=android]": {
+	height: "65%"
+},
+".containerView":{
+	layout: "vertical",
+	height: Ti.UI.SIZE,
+	width: "90%",
+	backgroundColor: "white",
+	zIndex: 2,
+	borderRadius: 4
+}
+".containerView2":{
+	layout: "vertical",
+	height: Titanium.UI.SIZE,
+	//backgroundColor: "gray",
+	backgroundColor: "white",
+	zIndex: 2
+}
+"#bg":{
+	backgroundColor: "black",
+	width: "100%",
+	height: "100%",
+	opacity: 0.7,
+	zIndex: 1
+},
+".green":{
+	top: 15,
+	color: "#238f4b",
+	font:{
+		fontSize: "17"
+	},
+	textAlign: "center",
+	height: Ti.UI.SIZE
+},
+".image":{
+	top: 10,
+	width: "70%",
+	height:Ti.UI.SIZE
+},
+"#descripcion":{
+	top: 8,
+	color: "#313131",
+	font:{
+		fontSize: "15"
+	},
+	textAlign: "center",
+	height: Ti.UI.SIZE
+},
+"#descripcion2":{
+	top: 0,
+	color: "#313131",
+	font:{
+		fontSize: "12"
+	},
+	textAlign: "center",
+	height: Ti.UI.SIZE,
+	// backgroundColor: "pink"
+},
+"#padding":{
+	top: 10,
+	bottom: 10,
+	height: 15,
+	layout: 'horizontal',
+	width: Ti.UI.SIZE,
+	zIndex: 3,
+	backgroundColor: "white"
+}

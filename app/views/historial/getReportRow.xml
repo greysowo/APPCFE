@@ -1,0 +1,7 @@
+<Alloy>
+	<TableViewRow id="getReportRow" selectedBackgroundColor="#238f4b" onClick="getReport">
+		<ImageView class="agregar"></ImageView>
+		<Label id="tipo">No cuentas con ninguna</Label>
+		<!-- <View class="line" height="0.5"></View> -->
+	</TableViewRow>
+</Alloy>

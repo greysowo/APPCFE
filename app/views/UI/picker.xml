@@ -1,0 +1,15 @@
+<Alloy>
+	<View id="pickerView">
+		<View id="bg"></View>
+		<View id="picker">
+			<TableView id="list" onClick="setValue"></TableView>
+			<Button id="cancel" onClick="cancel"></Button>
+		</View>
+		<View id="otroView">
+			<Label id="textInfo" class="textInfo" top="25" color="#238f4b">Tipo de</Label>
+			<TextField id="nuevoTipo" top="20" class="textField" value="Tipo de" text="Tipo de" onFocus="changeTF" onBlur="validatedTF"></TextField>
+			<Button id="aceptar" class="buttonG" title="Aceptar" color="white" backgroundColor="#238f4b" top="25" left="5%" width="40%" onClick="otroValue"></Button>
+			<Button id="cancelar" class="buttonG" title="Cancelar" top="-55" right="5%" width="40%" onClick="cancel"></Button>
+		</View>
+	</View>
+</Alloy>

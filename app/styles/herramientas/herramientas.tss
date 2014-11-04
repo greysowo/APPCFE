@@ -1,0 +1,32 @@
+".tableView":{
+	height: Titanium.UI.SIZE,
+	backgroundColor: "#E5E5E5"
+},
+".row":{
+	backgroundColor: "white",
+	selectedBackgroundColor: "#238f4b",
+	height: 50
+},
+".icon":{
+	left: 0,
+	height: 50,
+	width: Titanium.UI.SIZE
+},
+".title":{
+	left: 50,
+	right: 30,
+	color: "black",
+	textAlign: "left",
+	font:{
+		fontFamily: "Helvetica-Neue",
+		fontWeight: "light",
+		fontSize: "16"
+	}
+},
+".arrow":{
+	image: "/images/flecha_gris.png",
+	right: -10,
+	height: 55,
+	width: Ti.UI.SIZE
+}
+

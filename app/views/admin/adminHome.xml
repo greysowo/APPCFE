@@ -1,0 +1,45 @@
+<Alloy>
+	<Window id="adminHome" class="window" onSwipe="swipe" layout="null">
+		<ImageView id="logo">
+		</ImageView>
+		<View id="container">
+			<Button id="arrowLeft" onClick="left">
+			</Button>
+			<View id="viewContainer">
+				<View id="atencion" class="view" onClick="openW" visible="true">
+					<ImageView id="programaImage" class="viewImage" image="/images/fallas_grande.png">
+					</ImageView>
+					<Label class="viewTitle">
+						Atención de fallas
+					</Label>
+				</View>
+				<View id="historial" class="view" onClick="openW">
+					<ImageView id="programaImage" class="viewImage" image="/images/ico_3.png">
+					</ImageView>
+					<Label class="viewTitle">
+						Mis Reportes
+					</Label>
+				</View>
+				<View id="herramientas" class="view" onClick="openW">
+					<ImageView id="programaImage" class="viewImage" image="/images/ico_4.png">
+					</ImageView>
+					<Label class="viewTitle">
+						Herramientas
+					</Label>
+				</View>
+			</View>
+			<Button id="arrowRight" onClick="right">
+			</Button>
+		</View>
+		<View id="buttons" onClick="setView">
+			<ImageView class="buttons" index="0"  left="0" opacity="1"  image="/images/fallas_chico.png">
+			</ImageView>
+			<ImageView class="buttons" index="1" image="/images/btn_3.png">
+			</ImageView>
+			<ImageView class="buttons" index="2" image="/images/btn_4.png">
+			</ImageView>
+		</View>
+		<View id="padding">
+		</View>
+	</Window>
+</Alloy>

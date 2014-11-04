@@ -1,0 +1,9 @@
+<Alloy>
+	<View id="camaraPicker">
+		<View id="bg"></View>
+		<View id="picker">
+			<TableView id="list" onClick="setValue"></TableView>
+			<Button id="cancel" onClick="cancel"></Button>
+		</View>
+	</View>
+</Alloy>

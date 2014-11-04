@@ -1,0 +1,26 @@
+"#getReportRow":{
+	height: 120,
+	backgroundColor: "white",
+	layout: "vertical"
+},
+".agregar":{
+	image: "/images/ico_agregar.png",
+	height: 40,
+	width: 40,
+	top: 20,
+	left: "45%"
+},
+"#tipo":{
+	top: 5,
+	textAlign: "center",
+	font:{
+		fontSize: "14"
+	},
+	color: "gray"
+}
+// ".line":{
+// top: 119,
+// height: 1,
+// width: "100%",
+// backgroundColor: "#A0A0A0"
+// }

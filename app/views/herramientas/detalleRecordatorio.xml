@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="window" id="detalleRecordatorio" backgroundColor="#E5E5E5">
+		<View class="navBar">
+			<Button class="atras" onClick="close"></Button>
+			<ImageView class="navLogo"></ImageView>
+		</View>
+		<Label class="navTitle">Detalle Recordatorio</Label>
+		<View class="container"></View>
+	</Window>
+</Alloy>

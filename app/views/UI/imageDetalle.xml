@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="imageDetalle" onClick="close">
+		<View class="bg"></View>
+		<ImageView id="image" class="image"></ImageView>
+	</View>
+</Alloy>

@@ -1,0 +1,16 @@
+<Alloy>
+	<Window class="window" id="historial" backgroundColor="#E5E5E5">
+		<View class="navBar">
+			<Button class="atras" onClick="close">
+			</Button>
+			<ImageView class="navLogo">
+			</ImageView>
+		</View>
+		<Label class="navTitle">
+			Historial
+		</Label>
+		<Label class="textInfo" left="15" top="10">Fallas Resueltas</Label>
+		<TableView id="tableView">
+		</TableView>
+	</Window>
+</Alloy>

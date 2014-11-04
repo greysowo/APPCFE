@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="recordatorios" class="window" backgroundColor="#E5E5E5" layout="null">
+		<View class="navBar" top="0">
+			<Button class="atras" onClick="close"></Button>
+			<ImageView class="navLogo"></ImageView>
+			<Button class="agregar" onClick="newRecordatorio"></Button>			
+		</View>
+		<Label class="navTitle" top="60">Recordatorios</Label>
+		<TableView id="recordatoriosTable" height="Ti.UI.SIZE" top="90"></TableView>
+	</Window>
+</Alloy>

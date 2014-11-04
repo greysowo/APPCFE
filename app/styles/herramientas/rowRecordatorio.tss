@@ -1,0 +1,62 @@
+
+"#rowRecordatorio": {
+	height: Titanium.UI.SIZE,
+	backgroundColor: "white"
+}
+"#container":{
+	top: 5,
+	left: 10,
+	right: 100,
+	height:Titanium.UI.SIZE,
+	//backgroundColor: "pink",
+	layout: "vertical",
+	bottom: 15
+},
+"#title":{
+	top: 10,
+	left: 10,
+	right: 0,
+	color: "black",
+	height:Titanium.UI.SIZE,
+	font:{
+		fontSize: "16",
+		fontWeight: "bold"
+	}
+}
+".bold":{
+	top: 3,
+	left: 10,
+	right: 0,
+	color: "black",
+	height:Titanium.UI.SIZE,
+	font:{
+		fontSize: "13",
+		fontWeight: "bold"
+	}
+}
+"#fecha":{
+	top: -18,
+	left: 90,
+	right: 0,
+	color: "black",
+	height:Titanium.UI.SIZE,
+	font:{
+		fontSize: "14"
+	}
+}
+"#diasRestantes":{
+	top: -18,
+	left: 60,
+	right: 0,
+	color: "black",
+	height:Titanium.UI.SIZE,
+	font:{
+		fontSize: "14"
+	}
+}
+".arrow":{
+	image: "/images/ico_flecha_doble.png",
+	height: 60,
+	width: 60,
+	right: -15
+}

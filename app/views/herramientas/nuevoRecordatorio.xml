@@ -1,0 +1,19 @@
+<Alloy>
+	<View id="nuevoRecordatorio" backgroundColor="transparent">
+		<View id="bg"></View>
+		<View id="agregarView">
+			<Label id="textInfo" class="textInfo" top="25" color="#238f4b">Agregar Recordatorio</Label>
+			<TextField id="nombre" top="20" textAlign="center" class="textField" value="Nombre recordatorio" text="Nombre recordatorio" onFocus="changeTF" onBlur="validatedTF"></TextField>
+			<Label id="fecha" top="20" textAlign="center" class="textField" value="Fecha" text="Fecha" focusable="false" onClick="showDate"></Label>
+			<Button id="aceptar" class="buttonG" title="Agregar" color="white" backgroundColor="#238f4b" top="20" left="5%" width="40%" onClick="agregar"></Button>
+			<Button id="cancelar" class="buttonG" title="Cancelar" top="-55" right="5%" width="40%" onClick="cancel"></Button>
+		</View>
+		<View id="pickerView" height="Ti.UI.SIZE" bottom="-280" zIndex="3">
+			<Picker id="picker" bottom="50" type="Ti.UI.PICKER_TYPE_DATE"></Picker>
+			<View bottom="0" height="50" backgroundColor="white">
+				<Button id="aceptarP" class="buttonG" title="Aceptar" color="white" backgroundColor="#238f4b" left="5%" width="40%" onClick="aceptarP"></Button>
+				<Button id="cancelarP" class="buttonG" title="Cancelar"  right="5%" width="40%" onClick="cancelP"></Button>
+			</View>
+		</View>
+	</View>
+</Alloy>

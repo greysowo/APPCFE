@@ -1,0 +1,22 @@
+"#tableView":{
+	backgroundColor: "#E5E5E5"
+},
+".header":{
+	backgroundColor: "#E5E5E5",
+	height: 35
+},
+".headerTitle":{
+	color: "#313131",
+	textAlign: "left",
+	left: 15,
+	font:{
+		fontFamily: "Helvetica-Neue",
+		fontWeight: "light"
+	}
+},
+".line":{
+	top: 34,
+	height: 0.5,
+	width: "100%",
+	backgroundColor: "#A0A0A0"
+}

@@ -1,0 +1,30 @@
+"#mapview[platform=ios]":{
+	userLocation: true,
+	animate: true,
+	mapType: Alloy.Globals.Map.STANDARD_TYPE
+},
+"#currentL":{
+	// backgroundColor:"black",
+	backgroundImage: "/images/ico_localizacion.png",
+	left: 0,
+	bottom: 0,
+	height: 80,
+	width: 80,
+	zIndex: 2
+},
+"#aceptar":{
+	//backgroundImage: "/images/ico_localizacion.png",
+	right: 0,
+	bottom: 20,
+	//height: 80,
+	//width: 80,
+	zIndex: 2
+}
+"#search":{
+	layout: "horizontal",
+	height:45,
+	backgroundColor: "#E5E5E5"
+},
+"#tf[platform=ios]":{
+	clearButtonMode : Titanium.UI.INPUT_BUTTONMODE_ONFOCUS
+},

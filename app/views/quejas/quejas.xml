@@ -1,0 +1,28 @@
+<Alloy>
+	<Window class="window" id="quejas" layout="null">
+		<View class="navBar" top="0">
+			<Button class="atras" onClick="close"></Button>
+			<ImageView class="navLogo"></ImageView>
+			<ActivityIndicator id="activityIndicator" right="15" bottom="10" color="white"/>
+		</View>
+		<Label class="navTitle" top="60">Reporte de quejas</Label>
+		<View id="container" class="container">
+			<ScrollView class="form">
+				<Label class="textInfo">Ingresa la siguiente información:</Label>
+				<TextField id="noServicio" class="textField" value="# de Servicio" onFocus="changeTF" onBlur="validatedTF" text="# de Servicio"></TextField>
+				<TextField id="email" class="textField" value="Email" text="Email" onFocus="changeTF" onBlur="validatedTF"></TextField>
+				<View class="descripcion" height="130">
+					<TextArea id="descripcion" class="textFieldD" value="Descripción" text="Descripción" onFocus="changeTF" onBlur="validatedTF"></TextArea>
+					<ImageView id="imageDescripcion" class="imageDescripcion" onClick="imageDetalle"></ImageView>
+					<Button class="camaraButton" onClick="camaraPicker"></Button>
+				</View>
+				<View class="line"></View>
+				<View class="pickerView" onClick="options">
+					<Label id="textPicker" class="textPicker">Tipo de Queja</Label>
+					<ImageView class="arrowPicker"></ImageView>
+				</View>
+			</ScrollView>
+			<Button class="buttonG" title="Enviar" onClick="enviar"></Button>
+		</View>
+	</Window>
+</Alloy>

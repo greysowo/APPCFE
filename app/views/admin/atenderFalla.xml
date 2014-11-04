@@ -1,0 +1,29 @@
+<Alloy>
+	<Window class="window" id="atenderFalla" layout="null">
+		<View class="navBar" top="0">
+			<Button class="atras" onClick="close"></Button>
+			<ImageView class="navLogo"></ImageView>
+			<ActivityIndicator id="activityIndicator" right="15" bottom="10" color="white"/>
+		</View>
+		<Label class="navTitle" top="60">Reporte de fallas</Label>
+		<View id="container" class="container" top="90">
+			<Label class="textInfo" top="5" left="15" color="gray">Falla atendida</Label>
+			<Label class="textInfo" id="folio" top="5" right="15"></Label>
+			<ScrollView class="form" top="30">
+				<Label class="textInfo">Descripción de falla atendida</Label>
+				<View class="descripcion" height="130">
+					<TextArea id="descripcion" class="textFieldD" value="Descripción" text="Descripción" onFocus="changeTF" onBlur="validatedTF"></TextArea>
+					<ImageView id="imageDescripcion" class="imageDescripcion" onClick="imageDetalle"></ImageView>
+					<Button class="camaraButton" onClick="camaraPicker"></Button>
+				</View>
+				<View class="line"></View>
+				<Label class="textInfo" top="15">Estatus</Label>
+				<View class="pickerView" onClick="options">
+					<Label id="textPicker" class="textPicker">Resuelta</Label>
+					<ImageView class="arrowPicker"></ImageView>
+				</View>
+			</ScrollView>
+			<Button class="buttonG" title="Enviar" onClick="enviar"></Button>
+		</View>
+	</Window>
+</Alloy>

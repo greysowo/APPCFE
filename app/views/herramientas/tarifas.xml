@@ -1,0 +1,37 @@
+<Alloy>
+	<Window id="tarifas" class="window" layout="null">
+		<View class="navBar" top="0">
+			<Button class="atras" onClick="close"></Button>
+			<ImageView class="navLogo"></ImageView>
+		</View>
+		<Label class="navTitle" top="60">Tarifas</Label>
+		<View class="container">
+			<ScrollView class="form">
+				<Label class="textInfo">Tarifas para el suministro y\n venta de energía eléctrica</Label>
+				<View class="pickerView" onClick="tutorial">
+					<Label class="textPicker">Ayuda para encontrar tarifa</Label>
+					<ImageView class="arrowPicker"></ImageView>
+				</View>
+				<Label id="tipoText" top="0" class="textInfo">Tipo de tarifa:</Label>
+				<View class="pickerWhite" onClick="tipoList">
+					<Label id="tipo" class="pickerWhiteLabel">Doméstica</Label>
+					<ImageView class="arrow"></ImageView>
+				</View>
+				<View class="pickerWhite" onClick="tarifaList">
+					<Label id="tarifa" class="pickerWhiteLabel">Tarifa 1 (250 kwh)</Label>
+					<ImageView class="arrow"></ImageView>
+				</View>
+				<View class="pickerWhite" onClick="rangoList">
+					<Label id="rango" class="pickerWhiteLabel">Rango de consumo (1-75)</Label>
+					<ImageView class="arrow"></ImageView>
+				</View>
+				<View class="line"></View>
+				<View class="pickerView" onClick="options">
+					<Label id="textPicker" class="textPicker">Octubre</Label>
+					<ImageView class="arrowPicker"></ImageView>
+				</View>
+			</ScrollView>
+			<Button class="buttonG" title="Consultar"></Button>
+		</View>
+	</Window>
+</Alloy>

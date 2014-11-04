@@ -1,0 +1,33 @@
+<Alloy>
+	<View id="tutorial">
+		<View id="bg" onClick="close"></View>
+		<View class="containerView">
+			<ScrollableView id="scrollableView" zIndex="1" onScrollEnd="scroll">
+				<View class="containerView2">
+					<Label class="green">¿Cómo conozco mi tarifa?</Label>
+					<ImageView class="image" image="/images/tutorial/tuto_1.png"></ImageView>
+					<Label id="descripcion">Localiza en tu recibo la\nTarifa de suministro</Label>
+					<Label id="descripcion2">(Debajo de tu Fecha limite de pago)</Label>
+				</View>
+				<View class="containerView2">
+					<Label class="green">¿Cómo conozco mi tarifa?</Label>
+					<ImageView class="image" image="/images/tutorial/tuto_2.png"></ImageView>
+					<Label id="descripcion">Selecciona tu tipo de\nTarifa especifica</Label>
+					<Label id="descripcion2">(Doméstica o Doméstica de alto consumo)</Label>
+				</View>
+				<View class="containerView2">
+					<Label class="green">¿Cómo conozco mi tarifa?</Label>
+					<ImageView class="image" image="/images/tutorial/tuto_3.png"></ImageView>
+					<Label id="descripcion">Elige Mes y Año de la tarifa\nque deseas consultar</Label>
+				</View>
+				<View class="containerView2">
+					<Label class="green">¿Cómo conozco mi tarifa?</Label>
+					<ImageView class="image" image="/images/tutorial/tuto_4.png"></ImageView>
+					<Label id="descripcion">¡Listo! Asi de facil\npuedes conocer tu tarifa.</Label>
+					<Label id="descripcion2">(Doméstica o Doméstica de alto consumo)</Label>
+				</View>
+			</ScrollableView>
+			<View id="padding"></View>
+		</View>
+	</View>
+</Alloy>

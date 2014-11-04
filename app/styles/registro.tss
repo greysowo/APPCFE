@@ -1,0 +1,56 @@
+"#registro": {
+	backgroundImage: "/images/img_home_960.png"
+},
+"#container":{
+	top: -45,
+	height: "100%",
+	contentHeight: "auto",
+	contentWidth: "100%",
+	layout: "vertical"
+},
+"#logo":{
+	top: 10,
+	//backgroundColor: "gray",
+	image: "/images/logo_cfe.png",
+	height: "17%",
+	width: Ti.UI.SIZE,
+	zIndex: 3
+},
+"#bienvenida":{
+	top: 15,
+	textAlign: "center",
+	color: "white",
+	font:{
+		fontSize: "18"
+	}
+},
+".registroTF":{
+	returnKeyType:Titanium.UI.RETURNKEY_NEXT,
+	top: 15,
+	borderColor: "white",
+	borderWidth: 1,
+	borderRadius: 5,
+	color: "white",
+	height: 35,
+	width: "80%",
+	textAlign: "center",
+	backgroundColor: "transparent",
+	autocorrect: false,
+	autocapitalization:Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE
+},
+".registroTF[platform=ios]":{
+	clearButtonMode: Titanium.UI.INPUT_BUTTONMODE_ONFOCUS
+},
+".registroButton":{
+	top: 25,
+	width: "37%",
+	height: 37,
+	borderColor: "white",
+	borderRadius: 18.5,
+	backgroundColor: "transparent",
+	borderWidth: 1,
+	color: "white",
+	font:{
+		fontSize: "14"
+	}
+},

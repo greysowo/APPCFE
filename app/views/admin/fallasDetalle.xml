@@ -1,0 +1,46 @@
+<Alloy>
+	<Window class="window" id="fallasDetalle" backgroundColor="#E5E5E5">
+		<View class="navBar">
+			<Button class="atras" onClick="close">
+			</Button>
+			<ImageView class="navLogo">
+			</ImageView>
+		</View>
+		<Label id="title2" class="navTitle">
+			Atención a fallas
+		</Label>
+		<View class="container" top="0">
+			<Label left="10" id="numero" class="topLabel" width="Ti.UI.SIZE">
+				No. de falla:
+			</Label>
+			<Label id="fecha" class="topLabel">
+			</Label>
+			<TableView id="tableView" bottom="70" zIndex="2">
+				<TableViewRow class="row" layout="vertical" height="150">
+					<Module id="mapview" module="ti.map" method="createView">
+					</Module>
+					<Label class="bold" height="Ti.UI.SIZE" top="10">
+						Dirección:
+					</Label>
+					<Label class="value" id="direccion">
+					</Label>
+				</TableViewRow>
+				<TableViewRow class="row">
+					<Label class="bold" top="10">
+						Reporte:
+					</Label>
+					<Label class="value" id="descripcion" bottom="10" top="8" height="Ti.UI.SIZE">
+					</Label>
+				</TableViewRow>
+				<TableViewRow class="row" layout="vertical" height="Ti.UI.SIZE">
+					<Label class="bold" id="imageText" top="10">
+						Fotos
+					</Label>
+					<ImageView id="image" bottom="10" top="10" height="Ti.UI.SIZE">
+					</ImageView>
+				</TableViewRow>
+			</TableView>
+			<Button class="buttonG" title="Atender" onClick="atender" bottom="15" zIndex="3">Atender</Button>
+		</View>
+	</Window>
+</Alloy>

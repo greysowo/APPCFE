@@ -1,0 +1,30 @@
+<Alloy>
+	<Window class="window" id="herramientas" backgroundColor="#E5E5E5">
+		<View class="navBar">
+			<Button class="atras" onClick="close"></Button>
+			<ImageView class="navLogo"></ImageView>
+		</View>
+		<Label class="navTitle">Herramientas</Label>
+		<TableView class="tableView" onClick="getWin" id="tableView">
+			<TableViewRow id="centros" class="row" url="herramientas/centros">
+				<ImageView class="icon" image="/images/ico_localizacion_2.png"></ImageView>
+				<Label class="title">Ubicación de centros de Pago</Label>
+				<ImageView class="arrow"></ImageView>
+			</TableViewRow>
+			<TableViewRow id="recordatorios" class="row" url="herramientas/recordatorios">
+				<ImageView class="icon" image="/images/ico_recordatorios.png"></ImageView>
+				<Label class="title">Recordatorios</Label>
+				<ImageView class="arrow"></ImageView>
+			</TableViewRow>
+			<TableViewRow id="tarifas" class="row" url="herramientas/tarifas">
+				<ImageView class="icon" image="/images/ico_tarifas.png"></ImageView>
+				<Label class="title">Tarifas</Label>
+				<ImageView class="arrow"></ImageView>
+			</TableViewRow>
+			<TableViewRow id="cerrarSesion" class="row" url="cerrar">
+				<ImageView class="icon" image="/images/ico_cerrarsesion.png" height="30" left="10"></ImageView>
+				<Label class="title">Cerrar Sesión</Label>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

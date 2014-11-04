@@ -1,0 +1,5 @@
+<Alloy>
+	<TableViewRow id="pickerItem" selectedBackgroundColor="#238f4b">
+		<Label id="title" textAlign="center" color="#313131" height="40"></Label>
+	</TableViewRow>
+</Alloy>

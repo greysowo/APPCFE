@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="centros" class="window">
+		<View class="navBar">
+			<Button class="atras" onClick="close"></Button>
+			<ImageView class="navLogo"></ImageView>
+		</View>
+		<Label class="navTitle">Ubicación de centros de pago</Label>
+		<View id="mapContainer">
+			<Module id="mapview" module="ti.map" method="createView"></Module>
+			<Button id="currentL" onClick="currentLocation"></Button>
+		</View>
+	</Window>
+</Alloy>

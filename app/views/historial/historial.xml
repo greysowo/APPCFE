@@ -1,0 +1,27 @@
+<Alloy>
+	<Window class="window" id="historial" backgroundColor="#E5E5E5">
+		<View class="navBar">
+			<Button class="atras" onClick="close"></Button>
+			<ImageView class="navLogo"></ImageView>
+		</View>
+		<Label class="navTitle">Mis reportes</Label>
+		<TableView id="tableView">
+			<TableViewSection id="fallas">
+				<HeaderView>
+					<View class="header">
+						<Label class="headerTitle">Fallas</Label>
+						<View class="line"></View>
+					</View>
+				</HeaderView>
+			</TableViewSection>
+			<TableViewSection id="quejas">
+				<HeaderView>
+					<View class="header">
+						<Label class="headerTitle">Quejas</Label>
+						<View class="line"></View>
+					</View>
+				</HeaderView>
+			</TableViewSection>
+		</TableView>
+	</Window>
+</Alloy>

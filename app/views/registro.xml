@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="registro" class="window">
+		<Button class="atras" onClick="close" left="5" top="20" zIndex="3"></Button>
+		<ScrollView id="container">
+			<ImageView id="logo"></ImageView>
+			<Label id="bienvenida">Registrate con nosotros</Label>
+			<TextField index="2" id="nombre" class="registroTF" top="15" value="Nombre" text="Nombre" onFocus="changeTF" onBlur="validatedTF" onReturn="next"></TextField>
+			<TextField index="3" id="dir" class="registroTF" value="Dirección" text="Dirección" onFocus="changeTF" onBlur="validatedTF" onReturn="next"></TextField>
+			<TextField index="4" id="email" class="registroTF" value="Correo electrónico" text="Correo electrónico" onFocus="changeTF" onBlur="validatedTF" onReturn="next"></TextField>
+			<TextField index="5" id="noServicio" class="registroTF" value="No. de servicio" text="No. de servicio" onFocus="changeTF" onBlur="validatedTF" onReturn="next"></TextField>
+			<TextField index="6" id="user" class="registroTF" value="Usuario" text="Usuario" onFocus="changeTF" onBlur="validatedTF" onReturn="next"></TextField>
+			<TextField id="pass" class="registroTF" value="Contraseña" text="Contraseña" onFocus="changeTF" onBlur="validatedTF" returnKeyType="Titanium.UI.RETURNKEY_DONE"></TextField>
+			<Button class="registroButton" title="Registrarme" onClick="registro"></Button>
+			<ActivityIndicator id="activityIndicator" top="10" color="white"/>
+		</ScrollView>
+	</Window>
+</Alloy>

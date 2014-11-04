@@ -1,0 +1,11 @@
+"#mapview[platform=ios]":{
+	animate: true,
+	mapType: Alloy.Globals.Map.STANDARD_TYPE
+},
+"#mapview":{
+	userLocation: true,
+	//animate: true,
+	//mapType: Alloy.Globals.Map.STANDARD_TYPE,
+	height: 220,
+	top: 0
+},

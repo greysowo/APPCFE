@@ -1,0 +1,12 @@
+<Alloy>
+	<TableViewRow id="rowRecordatorio" selectedBackgroundColor="#238f4b" onClick="getRecordatorio">
+		<View id="container">
+			<Label id="title"></Label>
+			<Label class="bold">Fecha limite:</Label>
+			<Label id="fecha"></Label>
+			<Label class="bold">Faltan:</Label>
+			<Label id="diasRestantes"></Label>
+		</View>
+		<ImageView class="arrow"></ImageView>
+	</TableViewRow>
+</Alloy>

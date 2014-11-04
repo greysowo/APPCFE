@@ -1,0 +1,11 @@
+"#tipoText":{
+	textAlign: "left",
+	left: "6%"
+},
+".arrow":{
+	image: "/images/flecha_gris.png",
+	right: -10,
+	height: 55,
+	width: Ti.UI.SIZE
+}
+

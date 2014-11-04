@@ -1,0 +1,14 @@
+"#mapview[platform=ios]":{
+	userLocation: true,
+	animate: true,
+	mapType: Alloy.Globals.Map.STANDARD_TYPE
+},
+"#currentL":{
+	// backgroundColor:"black",
+	backgroundImage: "/images/ico_localizacion.png",
+	left: 0,
+	bottom: 0,
+	height: 80,
+	width: 80,
+	zIndex: 2
+}

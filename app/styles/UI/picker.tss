@@ -1,0 +1,46 @@
+"#pickerView":{
+	width: "100%",
+	height: "100%",
+	backgroundColor: "transparent"
+},
+"#bg":{
+	backgroundColor: "black",
+	width: "100%",
+	height: "100%",
+	opacity: 0.6
+},
+"#picker":{
+	bottom: 0,
+	height: Ti.UI.SIZE
+},
+"#list":{
+	height: Ti.UI.SIZE,
+	borderRadius: 4,
+	width: "95%",
+	backgroundColor: "white",
+	bottom: 60,
+	separatorColor: "#A0A0A0"
+},
+"#cancel":{
+	height: 40,
+	borderRadius: 4,
+	width: "95%",
+	backgroundColor: "white",
+	bottom: 10,
+	color: "blue",
+	title: "Cancel",
+	font:{
+		fontFamily: "Helvetica-Neue",
+		fontWeight: "bold",
+		fontSize: "18"
+	}
+},
+"#otroView":{
+	layout: "vertical",
+	height:Ti.UI.SIZE,
+	backgroundColor: "white",
+	//top: "35%",
+	width: "85%",
+	visible: false,
+	borderRadius: 4
+}

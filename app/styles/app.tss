@@ -1,0 +1,202 @@
+".window":{
+	layout: "vertical",
+	navBarHidden: true,
+	orientationModes: [Ti.UI.PORTRAIT],
+	backgroundColor: "white"
+},
+".window[platform=ios]":{
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+},
+".window[platform=android]":{
+	windowSoftInputMode: Titanium.UI.Android.SOFT_INPUT_ADJUST_PAN
+},
+".navBar":{
+	height: 60,
+	backgroundImage: "/images/img_topbar.png"
+},
+// ".navBar[platform=android]":{
+// //top: -30
+// height: 50,
+// },
+".atras":{
+	bottom: 0,
+	left: 0,
+	top: 20,
+	height: 40,
+	width: 57,
+	backgroundImage: "/images/btn_atras.png",
+	//backgroundColor:"gray",
+	zIndex: 3
+},
+".atras[platform=android]":{
+	left: 0,
+	top: 10
+},
+".navLogo":{
+	top: 18,
+	bottom: 3,
+	image: "/images/logo_cfe.png"
+},
+".navTitle":{
+	backgroundColor: "#313131",
+	color: "white",
+	width: "100%",
+	textAlign: "center",
+	height: 30,
+	font:{
+		fontFamily: "Helvetica-Neue",
+		fontWeight: "light"
+	}
+}
+".container":{
+	top: 90,
+	backgroundColor: "#E5E5E5",
+	height: Ti.UI.FILL
+},
+".form":{
+	top: 0,
+	backgroundColor: "white",
+	height: Ti.UI.SIZE,
+	bottom: 70,
+	layout: "vertical",
+	contentHeight: "auto"
+},
+".textInfo":{
+	top: 10,
+	color: "#313131",
+	textAlign: "center",
+	//height: 30,
+	font:{
+		fontFamily: "Helvetica-Neue",
+		fontWeight: "light",
+		fontSize: "15"
+	}
+},
+".textField":{
+	top: 10,
+	backgroundColor: "transparent",
+	borderColor: "#A0A0A0",
+	borderRadius: 3,
+	width: "90%",
+	color: "#313131",
+	borderWidth: 1.5,
+	textAlign: "left",
+	height: 35,
+	paddingLeft: 10,
+	font:{
+		fontFamily: "Helvetica-Neue",
+		fontWeight: "light",
+		fontSize: "15"
+	},
+	autocapitalization:Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE
+},
+".textField[platform=ios]":{
+	clearButtonMode: Titanium.UI.INPUT_BUTTONMODE_ONFOCUS
+},
+".pickerWhite":{
+	top: 10,
+	backgroundColor: "white",
+	borderColor: "#A0A0A0",
+	borderRadius: 3,
+	width: "90%",
+	borderWidth: 1.5,
+	height: 35
+},
+".pickerWhiteLabel":{
+	width: "90%",
+	color: "#313131",
+	textAlign: "left",
+	height: "100%",
+	paddingLeft: 10,
+	font:{
+		fontFamily: "Helvetica-Neue",
+		fontWeight: "light",
+		fontSize: "14"
+	}
+},
+".descripcion":{
+	top: 10,
+	backgroundColor: "white",
+	borderColor: "#A0A0A0",
+	borderRadius: 3,
+	borderWidth: 1.5,
+	height: 100,
+	width: "90%"
+},
+".imageDescripcion":{
+	width: 35,
+	height: 35,
+	bottom: 5,
+	left: 7
+},
+".textFieldD":{
+	height: 85,
+	right: 5,
+	//paddingLeft: 15,
+	top: 0,
+	left: 5,
+	//width: "90%",
+	color: "#313131",
+	font:{
+		fontFamily: "Helvetica-Neue",
+		fontWeight: "light",
+		fontSize: "15"
+	}
+},
+".camaraButton":{
+	width: 50,
+	height: 50,
+	bottom: 0,
+	right: 0,
+	backgroundImage: "/images/ico_camara.png"
+},
+".line":{
+	top: 15,
+	height: 1,
+	width: "90%",
+	backgroundColor: "#A0A0A0"
+}
+".pickerView":{
+	top: 15,
+	width: "90%",
+	// backgroundColor: "black",
+	backgroundColor: "#238f4b",
+	borderRadius: 3,
+	height: 40,
+	bottom: 20
+},
+".textPicker":{
+	color: "white",
+	textAlign: "left",
+	left: 10,
+	//height: 30,
+	font:{
+		fontFamily: "Helvetica-Neue",
+		fontWeight: "light",
+		fontSize: "15"
+	}
+},
+".arrowPicker":{
+	image: "/images/flecha_blanca.png",
+	right: 0,
+	height: 40,
+	width: Titanium.UI.SIZE
+},
+".buttonG":{
+	width: "55%",
+	height: 40,
+	borderRadius: 20,
+	borderWidth: 2,
+	color: "#238f4b",
+	bottom: 15,
+	borderColor: "#238f4b",
+	backgroundColor: "transparent"
+},
+".agregar":{
+	backgroundImage: "/images/btn_agregar.png",
+	width: 50,
+	height: 50,
+	top: 10,
+	right: 0
+}
+

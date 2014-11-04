@@ -1,0 +1,29 @@
+".direccion":{
+	top: 10,
+	backgroundColor: "white",
+	borderColor: "#A0A0A0",
+	borderRadius: 3,
+	borderWidth: 1.5,
+	height: 36,
+	width: "90%"
+}
+"#direccion":{
+	left:0,
+	backgroundColor: "transparent",
+	width: "85%",
+	color: "#313131",
+	textAlign: "left",
+	height: 35,
+	paddingLeft: 10,
+	font:{
+		fontFamily: "Helvetica-Neue",
+		fontWeight: "light",
+		fontSize: "15"
+	}
+},
+"#ubicacionButton":{
+	right:0,
+	backgroundImage:"/images/ico_localizacion.png",
+	height:45,
+	width:45
+}

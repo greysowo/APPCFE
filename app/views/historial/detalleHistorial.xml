@@ -1,0 +1,42 @@
+<Alloy>
+	<Window class="window" id="detalleHistorial" backgroundColor="#E5E5E5">
+		<View class="navBar">
+			<Button class="atras" onClick="close"></Button>
+			<ImageView class="navLogo"></ImageView>
+		</View>
+		<Label id="title2" class="navTitle"></Label>
+		<View class="container" top="0" height="100%">
+			<Label left="5" id="numero" class="topLabel">No. de</Label>
+			<Label right="5" id="estatus" class="topLabel">Estatus:</Label>
+			<TableView id="tableView">
+				<TableViewRow class="row">
+					<Label class="bold" id="title"></Label>
+				</TableViewRow>
+				<TableViewRow class="row">
+					<Label class="bold">No. de Servicio:</Label>
+					<Label class="value" id="noServicio"></Label>
+				</TableViewRow>
+				<TableViewRow class="row">
+					<Label class="bold">Fecha:</Label>
+					<Label class="value" id="fecha"></Label>
+				</TableViewRow>
+				<TableViewRow class="row">
+					<Label class="bold">Correo Electrónico:</Label>
+					<Label class="value" id="email"></Label>
+				</TableViewRow>
+				<TableViewRow class="row">
+					<Label class="bold">Dirección:</Label>
+					<Label class="value" id="direccion"></Label>
+				</TableViewRow>
+				<TableViewRow class="row" layout="vertical" height="Ti.UI.SIZE">
+					<Label class="bold" id="descripcionText" top="10">Descripción:</Label>
+					<Label class="value" id="descripcion" bottom="10" top="13" height="Ti.UI.SIZE"></Label>
+				</TableViewRow>
+				<TableViewRow class="row" layout="vertical" height="Ti.UI.SIZE">
+					<Label class="bold" id="imageText" top="10">Fotografía</Label>
+					<ImageView id="image" bottom="10" top="10" height="Ti.UI.SIZE"></ImageView>
+				</TableViewRow>
+			</TableView>	
+		</View>
+	</Window>
+</Alloy>

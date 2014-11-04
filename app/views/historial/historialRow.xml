@@ -1,0 +1,11 @@
+<Alloy>
+	<TableViewRow id="historialRow" selectedBackgroundColor="#238f4b" onClick="getReport">
+		<View id="container">
+			<Label id="title"></Label>
+			<Label class="estatus">Estatus:</Label>
+			<Label id="estatus"></Label>
+		</View>
+		<Label id="fecha"></Label>
+		<ImageView class="arrow"></ImageView>
+	</TableViewRow>
+</Alloy>

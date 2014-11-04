@@ -1,0 +1,67 @@
+"#login": {
+	backgroundImage: "/images/img_home_960.png"
+},
+"#logo":{
+	top: 30,
+	//backgroundColor: "gray",
+	image: "/images/logo_cfe.png",
+	height: "17%",
+	width: Ti.UI.SIZE
+},
+"#bienvenida":{
+	top: "5%",
+	textAlign: "center",
+	color: "white",
+	font:{
+		fontSize: "18"
+	}
+},
+".loginTF":{
+	top: 15,
+	color: "white",
+	height: 40,
+	width: "80%",
+	textAlign: "center",
+	backgroundColor: "transparent",
+	autocorrect: false,
+	autocapitalization:Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE
+},
+".loginTF[platform=ios]":{
+	clearButtonMode: Titanium.UI.INPUT_BUTTONMODE_ONFOCUS
+},
+".line":{
+	top: 0,
+	height: 1,
+	width: "80%",
+	backgroundColor: "white"
+},
+".loginButton":{
+	top: 25,
+	width: "37%",
+	height: 37,
+	borderColor: "white",
+	borderRadius: 18.5,
+	borderWidth: 1,
+	backgroundColor: "transparent",
+	color: "white",
+	font:{
+		fontSize: "14"
+	}
+},
+"#socialContainer":{
+	bottom: 10,
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.SIZE,
+	layout: "horizontal"
+},
+".socialLabel":{
+	textAlign: "left",
+	color: "white",
+	font:{
+		fontSize: "16"
+	}
+},
+".socialButton":{
+	height: 60,
+	width: 60
+}

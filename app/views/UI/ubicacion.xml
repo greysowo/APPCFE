@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="ubicacion" class="window" onOpen="openCoord"p>
+		<View class="navBar">
+			<Button class="atras" onClick="close"></Button>
+			<ImageView class="navLogo"></ImageView>
+		</View>
+		<Label class="navTitle">Elige una ubicación</Label>
+		<View id="search">
+			<TextField id="tf" class="textField" left="5" top="5" width="70%"></TextField>
+			<Button id="go" title="Buscar" class="buttonG" left="10" top="5" height="35" width="25%" onClick="buscar"></Button>
+		</View>
+		<View id="mapContainer">
+			<Module id="mapview" module="ti.map" method="createView"></Module>
+			<Button id="currentL" onClick="currentLocation"></Button>
+			<Button id="aceptar" title="Aceptar" class="buttonG" onClick="aceptar"></Button>
+		</View>
+	</Window>
+</Alloy>
+<Button id="leftButton" onClick="toggleRightSlider"></Button>

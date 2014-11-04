@@ -1,0 +1,25 @@
+<Alloy>
+	<Window id="login" class="window" onClick="blur">
+		<ImageView id="logo"></ImageView>
+		<View layout="vertical" top="5%" height="Ti.UI.SIZE">
+			<Label id="bienvenida">¡Bienvenido a CFE!</Label>
+			<TextField id="user" class="loginTF" value="Usuario" text="Usuario" bubbleParent="false" onFocus="changeTF" onBlur="validatedTF" returnKeyType="Titanium.UI.RETURNKEY_NEXT" onReturn="next" ></TextField>
+			<View class="line"></View>
+			<TextField id="pass" class="loginTF" value="Contraseña" text="Contraseña" bubbleParent="false" onReturn="login" onFocus="changeTF" onBlur="validatedTF" returnKeyType="Titanium.UI.RETURNKEY_SEND"></TextField>
+			<View class="line"></View>
+		</View>
+		<View height="Ti.UI.SIZE">
+			<Button class="loginButton" title="Registrarse" onClick="registro"></Button>
+			<!-- <Button class="loginButton" title="No registrarse" right="9%" onClick="noRegistro"></Button> -->
+			<ActivityIndicator id="activityIndicator" bottom="-40" color="white"/>
+		</View>
+		<View height="Ti.UI.FILL">
+			<View id="socialContainer">
+				<Label class="socialLabel">Registrate con</Label>
+				<Button class="socialButton" backgroundImage="/images/ico_face.png" onClick="loginFB"></Button>
+				<Label class="socialLabel">ó</Label>
+				<Button class="socialButton" backgroundImage="/images/ico_twitter.png" onClick="loginTW"></Button>
+			</View>
+		</View>
+	</Window>
+</Alloy>

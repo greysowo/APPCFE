@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="atencionFallas" class="window">
+		<View class="navBar">
+			<Button class="atras" onClick="close">
+			</Button>
+			<ImageView class="navLogo">
+			</ImageView>
+		</View>
+		<Module id="mapview" module="ti.map" method="createView">
+		</Module>
+		<Label class="navTitle">
+			Fallas reportadas en la zona
+		</Label>
+		<TableView id="tableView">
+		</TableView>
+	</Window>
+</Alloy>
