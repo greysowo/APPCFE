@@ -5,7 +5,7 @@
     <property name="acs-grouped-notification-message" type="string">Tienes $number$ mensajes de reportes.</property>
     <property name="ti.facebook.appid">877132405632142</property>
     <id>com.mayacreatives.cfe</id>
-    <name>cfe</name>
+    <name>CFE</name>
     <version>1.0</version>
     <publisher>DanielCampero</publisher>
     <url>http://</url>
